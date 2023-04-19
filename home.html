@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>樂活五線譜分析</title>
+  </head>
+  <body>
+    <h1>樂活五線譜分析</h1>
+    <form method="post" action="{{ url_for('result') }}">
+      <label for="stock_code">股票代碼:</label>
+      <input type="text" name="stock_code" id="stock_code" required>
+      <button type="submit">提交</button>
+    </form>
+  </body>
+</html>
